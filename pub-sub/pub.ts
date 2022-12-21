@@ -26,4 +26,4 @@ channelWrapper
     })
     .catch(function (err) {
         return console.log('Message was rejected...  Boo!');
-    });
+    }).finally(() => process.exit(0));

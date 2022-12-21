@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqp-connection-manager": "^4.1.1"
+    "@types/node": "^18.11.17",
+    "amqp-connection-manager": "^4.1.1",
+    "ts-node": "^10.9.1"
   }
 }
